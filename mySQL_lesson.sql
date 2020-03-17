@@ -3,7 +3,7 @@ CREATE TABLE person(
     name VARCHAR(30),
     major VARCHAR(30)
 );
-
+bdf
 INSERT INTO person (name, major)
 VALUES('Nicolas Calo', 'Business Management')
 ;
@@ -86,7 +86,7 @@ UPDATE employee
 SET branch_id = 1
 WHERE emp_id = 100;
 
-INSERT INTO employee VALUES(102, 'Michael', 'Scoott', '1964-03-15', 'M', 75000, 100, NULL);
+INSERT INTO employee VALUES(102, 'Michael', 'Scott', '1964-03-15', 'M', 75000, 100, NULL);
 
 INSERT INTO branch VALUES(2, 'Scranton', 102, '1992-04-06');
 
@@ -109,7 +109,6 @@ WHERE emp_id = 106;
 
 INSERT INTO employee VALUES(107, 'Andy', 'Bernard', '1973-07-22', 'M', 65000, 106, 3);
 INSERT INTO employee VALUES(108, 'Jim', 'Halpert', '1978-10-01', 'M', 71000, 106, 3);
-
 
 -- BRANCH SUPPLIER
 INSERT INTO branch_supplier VALUES
